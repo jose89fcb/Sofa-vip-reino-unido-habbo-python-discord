@@ -3,7 +3,7 @@ Comandos a usar:
 Sofa vip reino unido: !sofahc keko1 keko2
 
 
-<img src="https://i.imgur.com/G1BvLtO.png">
+<img src="https://i.imgur.com/fjtd2CY.png">
 
 Necesitas instalar python 3.7: https://www.python.org/downloads/release/python-370/
 

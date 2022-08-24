@@ -38,20 +38,20 @@ async def sofahc(ctx,  keko1, keko2):
     
     url = "https://www.habbo.com/habbo-imaging/avatarimage?size=l&figure="+ habbo +"&action=sit&direction=4&head_direction=4&gesture=std&size=m"
     img1 = Image.open(io.BytesIO(requests.get(url).content))
-    img1 = img1.resize((64,110), Image.ANTIALIAS)#tamaño del keko 1
+    img1 = img1.resize((64,110), Image.Resampling.LANCZOS)#tamaño del keko 1
     
     url1 = "https://www.habbo.com/habbo-imaging/avatarimage?size=l&figure="+ habbo1 +"&action=sit&direction=4&head_direction=4&gesture=std&size=m"
     habbol = Image.open(io.BytesIO(requests.get(url1).content))
-    habbol = habbol.resize((64,110), Image.ANTIALIAS)#tamaño del keko 2
+    habbol = habbol.resize((64,110), Image.Resampling.LANCZOS)#tamaño del keko 2
     
     
     img2 = img1.copy()
     
     trozoSOFAHC = Image.open(r"imagenes/TrozoHCSofa.png").convert("RGBA")
-    img1 = trozoSOFAHC.resize((200,135), Image.ANTIALIAS)#tamaño del trozo de sofa
+    img1 = trozoSOFAHC.resize((200,135), Image.Resampling.LANCZOS)#tamaño del trozo de sofa
     
     img1 = Image.open(r"imagenes/HCSofa.png").convert("RGBA") #Imagen del sofa habbo club
-    img1 = img1.resize((200,135), Image.ANTIALIAS)
+    img1 = img1.resize((200,135), Image.Resampling.LANCZOS)
 
 
     

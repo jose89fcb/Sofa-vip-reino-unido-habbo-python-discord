@@ -1,3 +1,5 @@
+Puedes obtener este bot pero con slash <a href="https://github.com/jose89fcb/Slash-Sofa-vip-reino-unido-habbo-python-discord">https://github.com/jose89fcb/Slash-Sofa-vip-reino-unido-habbo-python-discord</a>
+<br>
 Comandos a usar:
 <br>
 Sofa vip reino unido: !sofahc keko1 keko2
